@@ -1,0 +1,14 @@
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\bin\Debug\KNyKarolyBoross.exe.config
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\bin\Debug\KNyKarolyBoross.exe
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\bin\Debug\KNyKarolyBoross.pdb
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\obj\Debug\KNyKarolyBoross.csprojAssemblyReference.cache
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\obj\Debug\MainWindow.g.cs
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\obj\Debug\App.g.cs
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\obj\Debug\KNyKarolyBoross_MarkupCompile.cache
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\obj\Debug\KNyKarolyBoross_MarkupCompile.lref
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\obj\Debug\MainWindow.baml
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\obj\Debug\KNyKarolyBoross.g.resources
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\obj\Debug\KNyKarolyBoross.Properties.Resources.resources
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\obj\Debug\KNyKarolyBoross.csproj.GenerateResource.cache
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\obj\Debug\KNyKarolyBoross.exe
+D:\sulis szar\2020-2021\Komplex Programozás\Projekt5 - Könyvtári nyilvántartó\KNyKarolyBoross\KNyKarolyBoross\obj\Debug\KNyKarolyBoross.pdb
