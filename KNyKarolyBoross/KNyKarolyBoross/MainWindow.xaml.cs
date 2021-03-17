@@ -87,18 +87,43 @@ namespace KNyKarolyBoross
 
         }
     }
+    class Kereses
+    {
+        public int KonyvID { get; set; }
+        public string Szerzo { get; set; }
+        public string Cim { get; set; }
+        public string KiadasEv { get; set; }
+        public string Kiado { get; set; }
+        public bool Kolcson { get; set; }
+        public Kereses(string sor)
+        {
+            string[] resz = sor.Split(';');
+            KonyvID = Convert.ToInt32(resz[0]);
+            Szerzo = resz[1];
+            Cim = resz[2];
+            KiadasEv = resz[3];
+            Kiado = resz[4];
+            Kolcson = Convert.ToBoolean(resz[5]);
+        }
+        public Kereses()
+        {
+
+        }
+    }
     public partial class MainWindow : Window
     {
         List<Konyvek> konyvek = new List<Konyvek>();
         List<Tagok> tagok = new List<Tagok>();
         List<Kolcson> kolcson = new List<Kolcson>();
+        List<Konyvek> kereses1 = new List<Konyvek>();
+        List<Konyvek> kereses2 = new List<Konyvek>();
         public MainWindow()
         {
             InitializeComponent();
             KonyvekTabla.DataContext = konyvek;
             TagokTabla.DataContext = tagok;
             KolcsonzesekTabla.DataContext = kolcson;
-            KeresesTabla.DataContext = konyvek;
+            KeresesTabla.DataContext = kereses1;
             foreach (var item in File.ReadAllLines("konyvek.txt"))
             {
                 konyvek.Add(new Konyvek(item));
@@ -339,10 +364,97 @@ namespace KNyKarolyBoross
         {
             kolcson[KolcsonzesekTabla.SelectedIndex] = (Kolcson)KolcsonzesekTabla.SelectedItem;
         }
-
-        private void kereses_gomb_Click(object sender, RoutedEventArgs e)
+        private void kereses_gomb_konyv_Click(object sender, RoutedEventArgs e)
         {
+            if (KeresesTabla.Items.Count > 0)
+            {
+                if (kereses_szerzo.Text != "" || kereses_cim.Text != "")
+                {
+                    kereses1.Clear();
+                    KeresesTabla.DataContext = null;
+                    KeresesTabla.DataContext = kereses1;
+                }
+            }
+            if (kereses_szerzo.Text != "" && kereses_cim.Text != "")
+            {
+                foreach (var item in konyvek.Where(x => x.Szerzo.Contains(kereses_szerzo.Text)).Where(x => x.Cim.Contains(kereses_cim.Text)))
+                {
+                    kereses1.Add(item);
+                    KeresesTabla.DataContext = null;
+                    KeresesTabla.DataContext = kereses1;
+                }
+            }
+            else if (kereses_szerzo.Text != "")
+            {
+                foreach (var item in konyvek.Where(x => x.Szerzo.Contains(kereses_szerzo.Text)))
+                {
+                    kereses1.Add(item);
+                    KeresesTabla.DataContext = null;
+                    KeresesTabla.DataContext = kereses1;
+                }
+            }
+            else if (kereses_cim.Text != "")
+            {
+                foreach (var item in konyvek.Where(x => x.Cim.Contains(kereses_cim.Text)))
+                {
+                    kereses1.Add(item);
+                    KeresesTabla.DataContext = null;
+                    KeresesTabla.DataContext = kereses1;
+                }
+            }
+        }
 
+        private void kereses_gomb_kolcson_Click(object sender, RoutedEventArgs e)
+        {
+            /*if (KolcsonKeresesTabla.Items.Count > 0)
+            {
+                if (kereses_tag.Text != "" || kereses_kolcsonkonyvcime.Text != "")
+                {
+                    kereses2.Clear();
+                    KolcsonKeresesTabla.DataContext = null;
+                    KolcsonKeresesTabla.DataContext = kereses2;
+                }
+            }
+            if (kereses_tag.Text != "" && kereses_kolcsonkonyvcime.Text != "")
+            {
+                foreach (var item in kolcson.Where(x => x.OlvasoID == Convert.ToInt32(kereses_tag.Text)).Where(x => x.KonyvID == Convert.ToInt32(kereses_cim.Text)))
+                {
+                    kereses2.Add(item);
+                    KolcsonKeresesTabla.DataContext = null;
+                    KolcsonKeresesTabla.DataContext = kereses2;
+                }
+            }
+            else if (kereses_szerzo.Text != "")
+            {
+                foreach (var item in konyvek.Where(x => x.Szerzo.Contains(kereses_szerzo.Text)))
+                {
+                    kereses1.Add(item);
+                    KeresesTabla.DataContext = null;
+                    KeresesTabla.DataContext = kereses1;
+                }
+            }
+            else if (kereses_cim.Text != "")
+            {
+                foreach (var item in konyvek.Where(x => x.Cim.Contains(kereses_cim.Text)))
+                {
+                    kereses1.Add(item);
+                    KeresesTabla.DataContext = null;
+                    KeresesTabla.DataContext = kereses1;
+                }
+            }
+            */
+        }
+
+        private void KolcsonzesekTabla_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (KolcsonzesekTabla.SelectedItems.Count != 0)
+            {
+                kolcson_torles.IsEnabled = true;
+            }
+            else
+            {
+                kolcson_torles.IsEnabled = false;
+            }
         }
     }
 }

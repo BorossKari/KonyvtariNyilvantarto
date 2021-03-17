@@ -66,7 +66,7 @@
             </TabItem>
             <TabItem Header="Kölcsönzések">
                 <Grid Background="#FFE5E5E5">
-                    <DataGrid x:Name="KolcsonzesekTabla" HorizontalAlignment="Left" Height="650" Margin="15,15,0,0" VerticalAlignment="Top" Width="850" ItemsSource="{Binding}" CanUserReorderColumns="False" CanUserResizeColumns="False" AutoGenerateColumns="False" CellEditEnding="KolcsonzesekTabla_CellEditEnding">
+                    <DataGrid x:Name="KolcsonzesekTabla" HorizontalAlignment="Left" Height="650" Margin="15,15,0,0" VerticalAlignment="Top" Width="850" ItemsSource="{Binding}" CanUserReorderColumns="False" CanUserResizeColumns="False" AutoGenerateColumns="False" CellEditEnding="KolcsonzesekTabla_CellEditEnding" SelectionChanged="KolcsonzesekTabla_SelectionChanged">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding KolcsID}" ClipboardContentBinding="{x:Null}" Header="Kölcsönzés ID"/>
                             <DataGridTextColumn Binding="{Binding OlvasoID}" ClipboardContentBinding="{x:Null}" Header="Olvasó ID"/>
@@ -89,9 +89,9 @@
                     <Button x:Name="kolcson_mentes" Content="Módosítások mentése" HorizontalAlignment="Left" Margin="898,546,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Click="kolcson_mentes_Click"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Keresés">
+            <TabItem Header="Könyvek keresése">
                 <Grid Background="#FFE5E5E5">
-                    <DataGrid x:Name="KeresesTabla" HorizontalAlignment="Left" Height="650" Margin="15,15,0,0" VerticalAlignment="Top" Width="850" ItemsSource="{Binding}" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserResizeColumns="False" SelectionChanged="KonyvekTabla_SelectionChanged" CellEditEnding="KonyvekTabla_CellEditEnding">
+                    <DataGrid x:Name="KeresesTabla" HorizontalAlignment="Left" Height="650" Margin="15,15,0,0" VerticalAlignment="Top" Width="850" ItemsSource="{Binding}" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserResizeColumns="False" IsReadOnly="True">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding KonyvID}" ClipboardContentBinding="{x:Null}" Header="Könyv ID"/>
                             <DataGridTextColumn Binding="{Binding Szerzo}" ClipboardContentBinding="{x:Null}" Header="Szerző"/>
@@ -101,12 +101,31 @@
                             <DataGridCheckBoxColumn Binding="{Binding Kolcson}" ClipboardContentBinding="{x:Null}" Header="Kölcsönözhető?"/>
                         </DataGrid.Columns>
                     </DataGrid>
-                    <Label Content="Keresés" HorizontalAlignment="Left" Margin="898,22,0,0" VerticalAlignment="Top" FontSize="24"/>
+                    <Label Content="Könyvek keresése" HorizontalAlignment="Left" Margin="898,22,0,0" VerticalAlignment="Top" FontSize="24"/>
                     <Label Content="Szerző alapján:" HorizontalAlignment="Left" Margin="898,84,0,0" VerticalAlignment="Top" FontSize="24"/>
                     <TextBox x:Name="kereses_szerzo" HorizontalAlignment="Left" Height="38" Margin="898,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" FontSize="24"/>
                     <TextBox x:Name="kereses_cim" HorizontalAlignment="Left" Height="38" Margin="898,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" FontSize="24"/>
                     <Label Content="Cím alapján:" HorizontalAlignment="Left" Margin="898,216,0,0" VerticalAlignment="Top" FontSize="24"/>
-                    <Button x:Name="kereses_gomb" Content="Keresés" HorizontalAlignment="Left" Margin="898,546,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Click="kereses_gomb_Click"/>
+                    <Button x:Name="kereses_gomb_konyv" Content="Keresés" HorizontalAlignment="Left" Margin="898,546,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Click="kereses_gomb_konyv_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Kölcsönzések keresése">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Kölcsönzések keresése" HorizontalAlignment="Left" Margin="898,22,0,0" VerticalAlignment="Top" FontSize="24"/>
+                    <Label Content="Tag ID alapján:" HorizontalAlignment="Left" Margin="898,84,0,0" VerticalAlignment="Top" FontSize="24"/>
+                    <TextBox x:Name="kereses_tag" HorizontalAlignment="Left" Height="38" Margin="898,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" FontSize="24"/>
+                    <TextBox x:Name="kereses_kolcsonkonyvcime" HorizontalAlignment="Left" Height="38" Margin="898,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" FontSize="24"/>
+                    <Label Content="Kölcsönzött könyv címe alapján:" HorizontalAlignment="Left" Margin="898,216,0,0" VerticalAlignment="Top" FontSize="24"/>
+                    <Button x:Name="kereses_gomb_kolcson" Content="Keresés" HorizontalAlignment="Left" Margin="898,546,0,0" VerticalAlignment="Top" Width="330" FontSize="24" Click="kereses_gomb_kolcson_Click"/>
+                    <DataGrid x:Name="KolcsonKeresesTabla" HorizontalAlignment="Left" Height="650" Margin="15,15,0,0" VerticalAlignment="Top" Width="850" ItemsSource="{Binding}" CanUserReorderColumns="False" CanUserResizeColumns="False" AutoGenerateColumns="False" CellEditEnding="KolcsonzesekTabla_CellEditEnding">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding KolcsID}" ClipboardContentBinding="{x:Null}" Header="Kölcsönzés ID"/>
+                            <DataGridTextColumn Binding="{Binding OlvasoID}" ClipboardContentBinding="{x:Null}" Header="Olvasó ID"/>
+                            <DataGridTextColumn Binding="{Binding KonyvID}" ClipboardContentBinding="{x:Null}" Header="Könyv ID"/>
+                            <DataGridTextColumn Binding="{Binding KolcsDatum}" ClipboardContentBinding="{x:Null}" Header="Kölcsönzés Dátuma"/>
+                            <DataGridTextColumn Binding="{Binding VisszaDatum}" ClipboardContentBinding="{x:Null}" Header="Visszatérítendő eddig"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
                 </Grid>
             </TabItem>
         </TabControl>
