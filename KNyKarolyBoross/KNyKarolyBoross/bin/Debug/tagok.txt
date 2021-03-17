@@ -208,3 +208,5 @@
 208;Dudás Arnold;1968.02.20.;8978;Rédics;Erdőszél utca 62.
 209;Török Diána;1977.09.01.;9766;Zsennye;Skalnitzky Antal utca 71.
 210;Jakab Virág;1988.11.17.;2011;Budakalász;Lövész utca 291.
+211;123;214124;124124;214124;14521
+212;123;214124;124124;214124;14521

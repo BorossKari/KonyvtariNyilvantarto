@@ -1,83 +1,3 @@
-1;;Kassák Lajos összes versei / [sajtó alá rendezte és az utószót írta Kassák Lajosné], 1. köt.;1969;;True
-2;;3 perces mesék Micimackóról;2006;Egmont-Hungary;True
-3;C?ehov, Anton Pavlovic? (1860-1904);A 6-os számú kórterem és más írások;1994;Holnap;True
-4;;7x7 híres mai magyar regény;1997;Móra;True
-5;McNeill, Elizabeth;9 és 1/2 hét : Egy szerelmi kapcsolat emléke;1990;ILX Kft;True
-6;;A 10-14 éves gyermek : tanulás - pályaválasztás;1970;Kossuth Kiadó;True
-7;Jentner, Edith Lichtl, Gerti;10 kis nyuszi;1993;Egmont Hungary;True
-8;Mass, Wendy (1967-);11 szülinap;2015;Könyvmolyképző K.;True
-9;Mass, Wendy (1967-);13 ajándék;2016;Könyvmolyképző K.;True
-10;Dobayné Fenyvesi Ildikó;13 dráma : felkészülés érettségire, felvételire;2004;Mérték K.;True
-11;Townsend, Sue (1946-2014);A 13 és 3/4 éves Adrian Mole titkos naplója;[2009], cop. 1986;Gabo;True
-12;Csoma Gyula (1932-);A 14-18 évesek : ők és mi;1970;Kossuth Kiadó;True
-13;Heller, Joseph (1923-1999);A 22-es csapdája;1977;Európa;True
-14;;24 izgalmas novella;1966;Európa;True
-15;;44 híres eposz, verses regény, elbeszélő költemény;1999;Móra;True
-16;;52 heti önellenőrző napló;;Cukorbetegek gyakorlati kézikönyve.;True
-17;Wager, Walter;58 perc;cop. 1990;Fabula;True
-18;;66 híres magyar regény;2002;Móra;True
-19;;88 híres vers és értelmezése a világirodalomból;1996;Móra;True
-20;;99 híres magyar vers és értelmezése;1995;Móra;True
-21;Héjjas Endre (1929-2008) Váczy László;100 játék : Az orosz nyelv oktatásához;1977;Tankvk.;True
-22;;133 nap : történelmi képek és arcképek;1959;Táncsics Kiadó;True
-23;Vámos Miklós (1950-);135 lehetetlen történet;cop. 1997;Ab Ovo;True
-24;Tóth Aurél (1909-1980);200 földrajzi kísérlet;1982;Tankvk.;True
-25;;293 mondóka óvodásoknak;2007 [!2010];Pallas Antikvárium;True
-26;Santos, José Rodrigues dos (1964-);A 632-es kódex;cop. 2011;Kossuth;True
-27;Mitták Ferenc (1949-);1000 év - 100 híres történelmi személy : Szent Istvántól Antall Józsefig;[2000];Tóth Kvkereskedés;True
-28;;Az 1956-os forradalom utáni megtorlás Szabolcs-Szatmár-Bereg megyei dokumentumai;1992-;Jósa Múz.;True
-29;Douglas, David (1949-);2012 : maja próféciák : az ősi kalendárium és az idők végezete;cop. 2011;Ventus Libro;True
-30;Frei Tamás (1966-);2015 : a káosz éve és a magyar elit háborúja;2013;Ulpius-ház;True
-31;Nemere István (1944-);2015 jégkorszak;[2005];TKK;True
-32;Kampusch, Natascha (1988-);3096 napP;2010;Scolar;True
-33;Jókai Anna (1932-);4447;1982;Szépirod. Kvk.;True
-34;Mikszáth Kálmán (1847-1910);A beszélő köntös / A gavallérok;1977;Móra;True
-35;Seta Lucio Della;A bűntudat leküzdése : a szorongás, a pszichés szenvedés ellen;2006;Háttér Kiadó;True
-36;Stilton, Geronimo,;A bűzösen bűzlő vulkán különös esete /;2013;Alexandra,;True
-37;Taylor Charles;A dzsungelbörtön;1992;Kornétás;True
-38;Stilton, Geronimo (álnév);A kalózmacskák hajója;2011;Alexandra;True
-39;;A második világháború katonai története (1.kötet);2002;Anno,;True
-40;Balzac, Honoré de, (1799.05.20-1850.08.18);A Nucingen-ház - Chabert ezredes - A Vörös Vendégfogadó;1962;Szépirod. Kvk.,;True
-41;Kafka, Franz;A per;cop. 1993;M. Hírlap Maecenas;True
-42;Kaverin, Veniamin Aleksandrovič;A repülő fiú : Mesék;1987;Kárpáti K. Móra;True
-43;Szávai Géza;A rettenthetetlen vízimedve, avagy : Mesterdetektívregény gyermekeknek;1988;[Móra] Creang?;True
-44;Biggers, Earl Derr, (1884-1933);A sárga detektív;1988;Szépirod. Kvk.,;True
-45;Kulcsár Éva Porkolábné Balogh Katalin;A serdülőkori fejlődés pszichológiai jellemzői;2005;Trefort Kiadó ELTE PPK Tanárképzési- és Továbbképzési Közp;True
-46;Asztafjev Viktor (1924-2001);A szomorú detektív;1987;Magvető;True
-47;Stilton, Geronimo,;A titokzatos sajttolvaj /;2006;Alexandra,;True
-48;Balzac, Honoré de, (1799.05.20-1850.08.18);A tours-i plébános - Pierrette;1959;Európa,;True
-49;Ajtmatov Csingiz (1928-2008);A versenyló halála;1987;Európa;True
-50;;A világirodalom legszebb elbeszélésesi : az ókortól a XX. százdig;cop. 1977;;True
-51;Pavanello, Roberto.  (1958-);A világítótorony őre /;2014;Alexandra,;True
-52;Jósika Miklós (1794-1865);Abafi;cop. 2007;Kossuth;True
-53;Jósika Miklós (1794-1865);Abafi;1990;Szépirod. Kvk.;True
-54;Wölfel, Ursula;Abban az országban;1975;Móra Kiadó;True
-55;Wölfel, Ursula;Abban az országban;1975;Móra Kiadó;True
-56;Kovács Klára;Ábécéország;1986;Tankvk.;True
-57;Kovács Klára;Ábécéország;1986;Tankvk.;True
-58;Tamási Áron (1897-1966);Ábel az országban : regény;1956;Ifjúsági Könyvkiadó;True
-59;Mérei Ferenc (1909-1986) Binét Ágnes, V 1920-1991;Ablak - zsiráf : képes gyermeklexikon;1983;Móra;True
-60;Mérei Ferenc (1909-1986) Binét Ágnes, V 1920-1991;Ablak - zsiráf : képes gyermeklexikon;2009;Móra;True
-61;Mérei Ferenc (1909-1986) Binét Ágnes, V 1920-1991;Ablak - zsiráf : képes gyermeklexikon;2003;Móra;True
-62;Mérei Ferenc (1909-1986) Binét Ágnes, V 1920-1991;Ablak - zsiráf : képes gyermeklexikon;1991;Móra;True
-63;Moldova György (1934-);Az Abortusz-szigetek : Szatírák, történetek;1989;Magvető;True
-64;Salzman, Mark;Acél és selyem;cop. 2005;Lunarimpex;True
-65;;Az acélt megedzik;1975;Móra Ferenc Könyvkiadó;True
-66;;Az acélt megedzik;1975;Móra Ferenc Könyvkiadó;True
-67;Balogh Edgár (1906-1996);Acéltükör mélye;1982;Kriterion;True
-68;Gergely Sándor (1896-1966);Achrem fickó;1963;Magvető;True
-69;Hrabal, Bohumil (1914-1997);Adagio lamentoso;2006, cop. 1997;Európa;True
-70;James, Peter (1948-);Ádáz küzdelem;[2011];General Press;True
-71;Bödőcs Tibor (1982-);Addig se iszik;2017;Helikon;True
-72;Geiling, Irene Schwintowsky, Dagmar;Adebár mesél;1978;Móra Kiadó Arnold;True
-73;Nemat, Marina;Adjátok vissza az életemet! : hitemért, szerelmemért : [memoár];cop. 2007;Trivium;True
-74;McBain, Ed (1926-2005);Adósa ne maradj senkinek;cop. 2006;Gabo;True
-75;Palumbo, Nino;Az adótiszt : [regény];1964;Európa;True
-76;Steel, Danielle (1947-);Az adott szó;[1998];Merényi;True
-77;Füst Milán (1888-1967);Advent;1976;Magvető;True
-78;;Adventi kalendárium;1990;Szépirod. Kvk.;True
-79;;Adventi népmesék és legendák : 24 ünnepváró történet a világ minden tájáról;2016;Meseközpont Alapítvány;True
-80;Csörgő Anikó;Adventtől karácsonyig : ötletek, dekorációk, receptek az ünnepi előkészületekhez;1997-;Csodaország;True
 81;Borbély Sándor (1941-2004);Ady Endre, 1877-1919;[2000];Mikszáth;True
 82;Ady Endre (1877-1919);Ady Endre összes versei I;1975;Szépirod. Kiadó;True
 83;Ady Endre (1877-1919);Ady Endre összes versei II;1975;Szépirod. Kiadó;True
@@ -85,13 +5,12 @@
 85;Vergilius Maro, Publius (Kr. e. 70-Kr. e. 19);Aeneis : eposz;1962;Európa;True
 86;Vergilius Maro, Publius (Kr. e. 70-Kr. e. 19);Aeneis : eposz;1962;Európa;True
 87;Kiszely István (1932-2012);Afrika népei;1986;;True
-88;McVeigh, Jennifer;Afrikai akác;2014;Alexandra;True
+88;McVeigh, Jennifer;Kecske;2014;Alexandra;True
 89;Marsh, Evelyn;Afrodité sikolya;[2006], cop. 1990;Budakönyvek Anuket;True
 90;Bogáti Péter (1924-2012);Az ágasvári csata : vidám, kalandos történet;1961;Móra Kiadó;True
 91;Chesney, Marion (1936-);Agatha Raisin és a hivatalnok hullája;2017;Erawan;True
 92;Beaton, M. C., (1936-);Agatha Raisin és a kívánatos káplán /;2014;Ulpius-ház,;True
 93;Chesney, Marion (1936-);Agatha Raisin és a nyársat nyelt rendőr;2017;Erawan;True
-94;Beaton, M. C. (1936);Agatha Raisin és a parázna lódoktor;2011;Ulpius-ház Könyvkiadó;True
 95;Beaton, M. C. (1936-);Agatha Raisin és a spenótos halálpite;2011;Ulpius-ház;True
 96;Beaton, M. C. (1936-);Agatha Raisin és a vizes viszály;2012;Ulpius-ház;True
 97;Chesney, Marion (1936-);Agatha Raisin és az életveszélyes esküvő;2012;Ulpius-ház;True
@@ -7001,3 +6920,4 @@
 7001;S?ikl, Jaroslav;Zuhanás;1984;Európa Madách;True
 7002;Zelk, Zoltán (1906-1981);Zúzmara a rózsafán : : válogatott versek;1964;Szépirodalmi Kiadó;True
 7003;aaa;bbb;2000;ccccc;True
+7004;1;2;3;4;True
